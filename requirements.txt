@@ -1,0 +1,24 @@
+--extra-index-url https://download.pytorch.org/whl/cu117
+torch==1.13.1+cu117
+torchvision==0.14.1+cu117
+torchaudio==0.13.1
+mpi4py
+blobfile==2.0.0
+tqdm
+timm
+multiprocess
+numpy
+omegaconf
+matplotlib
+huggingface_hub>=0.13.2
+transformers~=4.25.1
+accelerate~=0.15.0
+diffusers~=0.16.0
+tokenizers~=0.13.2
+sentencepiece~=0.1.97
+ftfy~=6.1.1
+beautifulsoup4~=4.11.1
+protobuf==3.19.0
+jupyter
+xformers==0.0.16
+git+https://github.com/openai/CLIP.git
